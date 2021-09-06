@@ -1,8 +1,8 @@
 
 .form {
     width: 100%;
-    max-width: 350px;
-    padding: 30px;
+    max-width: 300px;
+    padding: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -10,12 +10,12 @@
 }
 
 .form__title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 31px;
+    font-weight: 700;
     text-transform: uppercase;
-    color: #9f394e;
+    color: #2c4498;
 }
 
 .form__price {
@@ -30,25 +30,22 @@
     display: inline-block;
     color: #898989;
     margin-right: 15px;
-    font-weight: 600;
     text-decoration: line-through;
+    font-size: 20px;
 }
 
 .form__price-new {
     display: inline-block;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 800;
-    color: #ee1c3d;
+    color: #2c4498;
     text-transform: uppercase;
     line-height: 1;
 }
 
 .form__label {
     display: block;
-
-    & + & {
-        margin-top: 15px;
-    }
+    margin-bottom: 15px;
 }
 
 .form__label-name {
@@ -79,7 +76,7 @@
 }
 
 .form__time {
-    margin-top: 30px;
+    margin-top: 15px;
     max-width: 320px;
     margin-right: auto;
     margin-left: auto;
@@ -106,10 +103,11 @@
     border: 1px solid #f1f1f1;
     margin-right: 10px;
     margin-left: 10px;
-    margin-bottom: 25px;
     padding: 0 10px;
 
     & span {
+        color: #5b57a2;
+
         &:nth-child(1) {
             font-size: 40px;
             font-weight: 700;
@@ -129,7 +127,8 @@
 @media (max-width: 1280px) {
     .form {
         max-width: 100%;
-        padding: 20px 400px 20px 20px;
+        padding: 20px 455px 20px 20px;
+        margin-top: 30px;
     }
 
     .form__title {

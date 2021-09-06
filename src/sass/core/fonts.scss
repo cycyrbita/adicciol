@@ -1,49 +1,32 @@
 /* stylelint-disable */
 
 @font-face {
-	font-family: 'Nunito';
-	src: url("../fonts/Nunito/Nunito-Regular.woff2") format("woff2"),
-		url("../fonts/Nunito/Nunito-Regular.woff") format("woff");
+	font-family: 'Calibri';
+	src: url("../fonts/Calibri/Calibri-Regular.woff2") format("woff2"),
+		url("../fonts/Calibri/Calibri-Regular.woff") format("woff");
 	font-style: normal;
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Nunito';
-	src: url("../fonts/Nunito/Nunito-SemiBold.woff2") format("woff2"),
-		url("../fonts/Nunito/Nunito-SemiBold.woff") format("woff");
-	font-style: normal;
-	font-weight: 600;
-}
-
-@font-face {
-	font-family: 'Nunito';
-	src: url("../fonts/Nunito/Nunito-Bold.woff2") format("woff2"),
-		url("../fonts/Nunito/Nunito-Bold.woff") format("woff");
+	font-family: 'Calibri';
+	src: url("../fonts/Calibri/Calibri-Bold.woff2") format("woff2"),
+		url("../fonts/Calibri/Calibri-Bold.woff") format("woff");
 	font-style: normal;
 	font-weight: 700;
 }
 
 @font-face {
-	font-family: 'Nunito';
-	src: url("../fonts/Nunito/Nunito-ExtraBold.woff2") format("woff2"),
-		url("../fonts/Nunito/Nunito-ExtraBold.woff") format("woff");
-	font-style: normal;
-	font-weight: 800;
+	font-family: 'Calibri';
+	src: url("../fonts/Calibri/Calibri-BoldItalic.woff2") format("woff2"),
+		url("../fonts/Calibri/Calibri-BoldItalic.woff") format("woff");
+	font-style: italic;
+	font-weight: 700;
 }
 
 @font-face {
-	font-family: 'Heading-Pro';
-	src: url("../fonts/Heading-Pro/HeadingProTrial-Heavy.woff2") format("woff2"),
-		url("../fonts/Heading-Pro/HeadingProTrial-Heavy.woff") format("woff");
-	font-style: normal;
-	font-weight: 500;
-}
-
-@font-face {
-	font-family: 'Heading-Pro';
-	src: url("../fonts/Heading-Pro/HeadingProTrial-Book.woff2") format("woff2"),
-		url("../fonts/Heading-Pro/HeadingProTrial-Book.woff") format("woff");
-	font-style: normal;
-	font-weight: 350;
+	font-family: 'Audiowide';
+	src: url("../fonts/Audiowide/Audiowide-Regular.woff") format("woff");
+	font-style: italic;
+	font-weight: 700;
 }

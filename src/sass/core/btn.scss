@@ -2,18 +2,18 @@
 /* stylelint-disable */
 
 .btn {
-    padding: 19px 15px;
+    padding: 10px;
     display: inline-block;
-    font-weight: 800;
-    text-transform: uppercase;
-    background-color: #ec1835;
+    font-weight: 700;
+    background: rgb(217,88,255);
+    background: linear-gradient(90deg, rgba(217,88,255,1) 0%, rgba(106,3,249,1) 100%);
     text-align: center;
     border: 0;
     text-decoration: none;
     opacity: .98;
     border-radius: 5px;
     box-shadow: 13px 13px 15px rgba(0, 0, 0, 0.12);
-    font-size: 15px;
+    font-size: 34px;
     color: #fff;
 
     &:hover {
