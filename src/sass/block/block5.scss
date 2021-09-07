@@ -1,0 +1,121 @@
+
+.block5__title {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #6fe9ff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 53px;
+}
+
+.block5__subtitle {
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: #fff;
+    line-height: 1;
+
+    mark {
+        font-family: "Audiowide", sans-serif;
+        display: block;
+        font-size: 96px;
+        text-transform: uppercase;
+        color: #6fe9ff;
+    }
+}
+
+.block5__description {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.block5__info {
+    margin-bottom: 60px;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+
+    mark {
+        font-size: 48px;
+        color: #6fe9ff;
+    }
+}
+
+.block5__list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 495px;
+}
+
+.block5__item {
+    padding-top: 215px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-size: 25px;
+    color: #fff;
+
+    p {
+        margin-bottom: 15px;
+        text-align: center;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    & + & {
+        margin-top: 30px;
+    }
+
+    &:nth-child(1) {
+        background-image: url("../media/block5/img-1.png");
+    }
+
+    &:nth-child(2) {
+        background-image: url("../media/block5/img-2.png");
+    }
+
+    &:nth-child(3) {
+        background-image: url("../media/block5/img-3.png");
+    }
+
+    &:nth-child(4) {
+        background-image: url("../media/block5/img-4.png");
+    }
+}
+
+.block5__btn {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+    .block5__list {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .block5__subtitle {
+        font-size: 40px;
+
+        mark {
+            font-size: 40px;
+        }
+    }
+
+    .block5__description {
+        font-size: 26px;
+    }
+
+    .block5__info {
+        font-size: 27px;
+    }
+
+    .block5__item {
+        text-align: center;
+    }
+}
