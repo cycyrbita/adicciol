@@ -57,6 +57,26 @@
             content: '';
         }
     }
+
+    &_block3 {
+        position: relative;
+        padding-bottom: 660px;
+        background-color: #000;
+        background-image: url("../media/section/block3.jpg");
+        background-position: center bottom;
+
+        &::after {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 70px;
+            width: 100%;
+            background: rgb(114,97,211);
+            background: linear-gradient(90deg, rgba(114,97,211,1) 0%, rgba(44,33,131,1) 100%);
+            content: '';
+        }
+    }
 }
 
 @media (max-width: 1280px) {
@@ -75,6 +95,12 @@
 
         &_block2 {
             padding-bottom: 100px;
+        }
+
+        &_block3 {
+            padding-bottom: 300px;
+            background-size: 100% auto;
+            background-position: center calc(100% - 80px);
         }
     }
 }
@@ -100,6 +126,12 @@
             &::after {
                 height: 30px;
             }
+        }
+
+        &_block3 {
+            padding-bottom: 350px;
+            background-image: none;
+            padding-bottom: 60px;
         }
     }
 }
