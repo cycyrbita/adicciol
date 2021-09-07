@@ -1,0 +1,136 @@
+
+.block4__title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 53px;
+    font-weight: 700;
+    color: #6fe9ff;
+    text-transform: uppercase;
+    max-width: 820px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.block4__description {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.block4__subtitle {
+    padding-left: 240px;
+    margin-bottom: 60px;
+    font-size: 60px;
+    color: #6fe9ff;
+
+    mark {
+        font-size: 96px;
+        color: #6fe9ff;
+        text-transform: uppercase;
+    }
+}
+
+.block4__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 758px;
+    padding-left: 300px;
+    margin-top: -150px;
+    background-image: url("../media/product-2.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.block4__item {
+    min-height: 83px;
+    padding-left: 140px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url("../media/block4/check.png");
+    font-size: 36px;
+    color: #fff;
+
+    & + & {
+        margin-top: 20px;
+    }
+}
+
+.block4__btn {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 140px;
+    padding-right: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+    .block4__subtitle {
+        padding-left: 0;
+        font-size: 40px;
+
+        mark {
+            font-size: 70px;
+        }
+    }
+
+    .block4__description {
+        font-size: 28px;
+    }
+
+    .block4__list {
+        min-height: 410px;
+        background-size: contain;
+        margin-top: 0;
+        padding-left: 170px;
+    }
+
+    .block4__item {
+        padding-left: 85px;
+        background-size: 70px;
+        font-size: 24px;
+    }
+
+    .block4__btn {
+        margin-left: 85px;
+    }
+}
+
+@media (max-width: 768px) {
+    .block4__list {
+        min-height: 0;
+        padding-left: 0;
+        background-image: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .block4__title {
+        font-size: 30px;
+    }
+
+    .block4__description {
+        font-size: 20px;
+    }
+
+    .block4__subtitle {
+        font-size: 30px;
+
+        mark {
+            font-size: 56px;
+        }
+    }
+
+    .block4__item {
+        background-size: 40px;
+        padding-left: 55px;
+        font-size: 20px;
+    }
+
+    .block4__btn {
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 24px;
+    }
+}
