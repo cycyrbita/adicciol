@@ -7,6 +7,8 @@ $(document).ready(function () {
         autoHeight: true,
         items: 1,
         margin: 40,
+        nav: true,
+        dots: false,
         stagePadding: 20
     });
 

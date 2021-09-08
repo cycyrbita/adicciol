@@ -80,4 +80,22 @@
     .block2__subtitle {
         text-align: center;
     }
+
+    .block2__subtitle {
+        font-size: 20px;
+    }
+
+    .block2__item {
+        font-size: 18px;
+        line-height: 1.2;
+
+        mark {
+            border: 0;
+            font-size: 18px;        
+        }
+
+        & + & {
+            margin-top: 20px;
+        }
+    }
 }

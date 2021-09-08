@@ -34,7 +34,7 @@
 
 @media (max-width: 480px) {
     .block6__title {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .block6__description {
@@ -44,11 +44,11 @@
         p {
             &:first-child {
                 margin-bottom: 10px;
-                font-size: 22px;
+                font-size: 18px;
             }
 
             &:last-child {
-                font-size: 20px;
+                font-size: 18px;
             }
         }
     }

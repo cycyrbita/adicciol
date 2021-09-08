@@ -86,8 +86,16 @@
 
     .block3__item {
         max-width: 280px;
-        padding-top: 390px;
+        padding-top: 366px;
         width: auto;
+
+        &:nth-child(1) {
+            display: none;
+        }
+
+        &:nth-child(2) {
+            display: none;
+        }
     }
 
     .block3__title {
