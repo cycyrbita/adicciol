@@ -2,27 +2,12 @@
 $(document).ready(function () {
     Start();
 
-    $('.js-commits__box').owlCarousel({
+    $('.block7__body').owlCarousel({
         loop: true,
         autoHeight: true,
+        items: 1,
         margin: 40,
-        stagePadding: 20,
-        responsive : {
-            320 : {
-                items: 1,
-                margin: 40,
-                stagePadding: 20
-            },
-
-            768 : {
-                items: 2,
-                nav: false
-            },
-
-            1310 : {
-                items: 3
-            }
-        }
+        stagePadding: 20
     });
 
     function Start() {
